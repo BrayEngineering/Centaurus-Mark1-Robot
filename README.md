@@ -101,6 +101,8 @@ Libraries used:
 - `SparkFun_TB6612.h`
 - `IRremote.h`
 
+
+
 ## Project Structure
 
 ```
@@ -117,9 +119,6 @@ centaurus-mark1-robot
 ├── hardware
 │   └── wiring-notes.md
 │       Wiring layout and hardware connections
-│
-├── images
-│   Robot photos and build process images
 │
 └── README.md
     Main project overview and documentation
