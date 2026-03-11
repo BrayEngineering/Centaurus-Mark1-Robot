@@ -6,27 +6,37 @@ Centaurus (Mark 1) is an Arduino-based robotics platform designed for maneuverab
 
 ## Features
 
-- IR remote control driving
-- Obstacle detection using ultrasonic sensor
-- LED light patterns
-- Randomized obstacle-avoidance mode
+- IR remote control driving  
+- Obstacle detection using ultrasonic sensor  
+- LED light patterns  
+- Randomized obstacle-avoidance mode  
 
 ---
 
-## Demo Video #1
+## Extended Description
+
+Centaurus (Mark 1) is a custom-built Arduino robotics platform created to demonstrate motor control, sensor integration, and remote-controlled navigation. The robot uses DC motors connected to an H-bridge motor driver to provide movement and maneuverability.
+
+Movement is primarily controlled using an infrared (IR) remote. The remote allows the operator to command the robot to move forward, reverse, and turn left or right. This manual control mode allows the robot to function like a small remote-controlled vehicle while also acting as a platform for experimenting with embedded motor control.
+
+In addition to manual control, the robot incorporates an ultrasonic distance sensor that detects nearby obstacles. When obstacle-avoidance mode is active, the robot scans its surroundings and randomly selects turning directions when an obstacle is detected. This creates a simple autonomous behavior similar to early robotics navigation systems.
+
+Centaurus also includes a custom LED lighting system driven by a shift register. The LEDs display animated patterns that change depending on the robot's movement state, creating visual feedback during actions such as forward motion, reversing, or turning.
+
+---
+
+## Demo Videos #1
 
 <a href="https://www.tiktok.com/@the_centaurus/video/7085929355746102570">
   <img src="https://github.com/user-attachments/assets/552bac9e-598d-45a5-9825-6131898b9100" width="350">
 </a>
 
-![Uploading image.png…]()
-
-
 ## Demo Video #2
 
 <a href="https://www.tiktok.com/@the_centaurus/video/7086537984648105262">
-  <img src="https://github.com/user-attachments/assets/98b463e7-1734-4c6c-9ac0-85e0a39b2444" width="350">
+ <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/4e36fa52-c165-46f4-a453-0c61a9b9c9dc" >
 </a>
+
 
 ---
 
@@ -38,19 +48,23 @@ Centaurus (Mark 1) is an Arduino-based robotics platform designed for maneuverab
 
 ## Build Process
 
+The chassis for Centaurus (Mark 1) was constructed from wood rather than 3D-printed parts. At the time of the build, a 3D printer was not available, so the frame was designed and assembled using wooden boards and basic tools.
+
+The wooden structure provides a durable mounting platform for the Arduino Uno, motor driver, sensors, and battery while also leaving enough internal space for wiring and LED installation. Using wood allowed the robot to be built using readily available materials while still maintaining structural stability for the motors and electronics.
+
 <img src="https://github.com/user-attachments/assets/a4a6e048-7664-4c7a-956b-738e04c98a68" width="500">
 
 ---
 
 ## Hardware Used
 
-- Arduino Uno
-- Ultrasonic sensor
-- DC motors
-- H-bridge motor driver
-- IR remote receiver
-- LEDs and shift register
-- 9V battery
+- Arduino Uno  
+- Ultrasonic sensor  
+- DC motors  
+- H-bridge motor driver  
+- IR remote receiver  
+- LEDs and shift register  
+- 9V battery  
 
 ---
 
@@ -67,3 +81,34 @@ Centaurus (Mark 1) is an Arduino-based robotics platform designed for maneuverab
 ---
 
 ## Project Structure
+
+```
+centaurus-mark1-robot
+│
+├── code
+│   └── robot-control.ino
+│       Arduino program controlling motors, sensors, and LEDs
+│
+├── docs
+│   └── design-report.md
+│       Design explanation and system notes
+│
+├── hardware
+│   └── wiring-notes.md
+│       Wiring layout and hardware connections
+│
+├── images
+│   Robot photos and build process images
+│
+└── README.md
+    Main project overview and documentation
+```
+
+---
+
+## Future Improvements
+
+- Add fully autonomous navigation  
+- Improve chassis durability  
+- Upgrade battery system  
+- Add Bluetooth or wireless control
