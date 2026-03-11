@@ -80,6 +80,27 @@ The wooden structure provides a durable mounting platform for the Arduino Uno, m
 
 ---
 
+## Code Overview
+
+The main Arduino program for Centaurus (Mark 1) is located in:
+
+`code/robot-control.ino`
+
+This file controls the complete robotic system including:
+
+- IR remote driving commands
+- DC motor control using the TB6612 motor driver
+- Ultrasonic obstacle detection
+- LED lighting patterns through a shift register
+- Autonomous obstacle-avoidance mode
+
+The program integrates motor control, sensor input, and LED feedback to allow both manual remote driving and basic autonomous navigation.
+
+Libraries used:
+
+- `SparkFun_TB6612.h`
+- `IRremote.h`
+
 ## Project Structure
 
 ```
