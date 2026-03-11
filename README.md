@@ -8,15 +8,15 @@ Centaurus (Mark 1) is an Arduino-based robotics platform designed for maneuverab
 - LED light patterns
 - Randomized obstacle-avoidance mode
 
-## Final Robot
-<img width="3080" height="2310" alt="image" src="https://github.com/user-attachments/assets/0bc2d1e3-ac93-456b-9804-c14b1013c71f" /> 
-
 ## Demo Video - 1
-
 [![Watch the video](images/robot-overview.jpg)](https://www.tiktok.com/@the_centaurus/video/7085929355746102570)
 
 ## Demo Video - 2
 [![Watch the video](images/robot-overview.jpg)](https://www.tiktok.com/@the_centaurus/video/7086537984648105262 )
+
+
+## Final Robot
+<img width="3080" height="2310" alt="image" src="https://github.com/user-attachments/assets/0bc2d1e3-ac93-456b-9804-c14b1013c71f" /> 
 
 
 ## Build Process
