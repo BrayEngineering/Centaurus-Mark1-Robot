@@ -25,7 +25,7 @@ Centaurus also includes a custom LED lighting system driven by a shift register.
 
 ---
 
-## Demo Videos #1
+## Demo Video #1
 
 <a href="https://www.tiktok.com/@the_centaurus/video/7085929355746102570">
   <img src="https://github.com/user-attachments/assets/552bac9e-598d-45a5-9825-6131898b9100" width="350">
