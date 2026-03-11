@@ -11,6 +11,13 @@ Centaurus (Mark 1) is an Arduino-based robotics platform designed for maneuverab
 ## Final Robot
 <img width="3080" height="2310" alt="image" src="https://github.com/user-attachments/assets/0bc2d1e3-ac93-456b-9804-c14b1013c71f" /> 
 
+## Demo Video - 1
+
+[![Watch the video](images/robot-overview.jpg)](https://www.tiktok.com/@the_centaurus/video/7085929355746102570)
+
+## Demo Video - 2
+[![Watch the video](images/robot-overview.jpg)](https://www.tiktok.com/@the_centaurus/video/7086537984648105262 )
+
 
 ## Build Process
 <img width="474" height="685" alt="image" src="https://github.com/user-attachments/assets/a4a6e048-7664-4c7a-956b-738e04c98a68" /> 
@@ -30,12 +37,6 @@ Centaurus (Mark 1) is an Arduino-based robotics platform designed for maneuverab
 <img width="707" height="527" alt="image" src="https://github.com/user-attachments/assets/1e8dcba9-1620-42c7-984e-c3509961f7c8" />
 <img width="892" height="863" alt="image" src="https://github.com/user-attachments/assets/1229a65f-077f-43f5-ba20-965ca7e28d40" />
 
-## Demo Video - 1
-
-[![Watch the video](images/robot-overview.jpg)](https://www.tiktok.com/@the_centaurus/video/7085929355746102570)
-
-## Demo Video - 2
-[![Watch the video](images/robot-overview.jpg)](https://www.tiktok.com/@the_centaurus/video/7086537984648105262 )
 
 ## Project Structure
 code – Arduino program  
