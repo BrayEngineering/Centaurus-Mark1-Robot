@@ -2,6 +2,14 @@
 
 Centaurus (Mark 1) is an Arduino-based robotics platform designed for maneuverability and remote-controlled movement using DC motors and sensors.
 
+**This project was originally designed and built when I was 16 years old as an early robotics experiment in embedded systems, motor control, and sensor integration.**
+
+---
+
+## Final Robot
+
+<img src="https://github.com/user-attachments/assets/0bc2d1e3-ac93-456b-9804-c14b1013c71f" width="700">
+
 ---
 
 ## Features
@@ -34,15 +42,8 @@ Centaurus also includes a custom LED lighting system driven by a shift register.
 ## Demo Video #2
 
 <a href="https://www.tiktok.com/@the_centaurus/video/7086537984648105262">
- <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/4e36fa52-c165-46f4-a453-0c61a9b9c9dc" >
+  <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/4e36fa52-c165-46f4-a453-0c61a9b9c9dc">
 </a>
-
-
----
-
-## Final Robot
-
-<img src="https://github.com/user-attachments/assets/0bc2d1e3-ac93-456b-9804-c14b1013c71f" width="700">
 
 ---
 
@@ -101,11 +102,9 @@ Libraries used:
 - `SparkFun_TB6612.h`
 - `IRremote.h`
 
-
-
 ## Project Structure
 
-```
+```text
 centaurus-mark1-robot
 │
 ├── code
@@ -122,13 +121,3 @@ centaurus-mark1-robot
 │
 └── README.md
     Main project overview and documentation
-```
-
----
-
-## Future Improvements
-
-- Add fully autonomous navigation  
-- Improve chassis durability  
-- Upgrade battery system  
-- Add Bluetooth or wireless control
